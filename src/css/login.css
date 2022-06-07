@@ -78,17 +78,18 @@ body{
   text-decoration: none;
 }
 
-.logIn_Box{
-  position: absolute;
-  Width: 363px;
-  height: 47px;
-  radius: 6px;
-  left: 50px;
-  right: 50px;
-  bottom: 353px;
-  top: 302px;
-  background: #4CC986;
-  border-radius: 6px;
+.logIn-Btn{
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #4cc986;
+  width: 28.8rem;
+  height: 4.7rem;
+  font-family: 'Exo';
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  border-radius: 0.6rem;
+  border: 0;
 }
 
 .welcomes{
