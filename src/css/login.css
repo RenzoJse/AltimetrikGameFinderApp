@@ -31,7 +31,7 @@ body{
   border-radius: 1.2rem;
   width: 100%;
   padding-bottom: 3.4rem;
-  color: var(--neutral9);
+  color: #FFFFFF;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,9 +68,8 @@ body{
   margin: 0 auto;
 }
 
-.forgot-Pass{
+.green-Link{
   color: #5fe19b;
-  font-family: 'Exo';
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.9rem;
@@ -78,13 +77,24 @@ body{
   text-decoration: none;
 }
 
+.nice-Text{
+  color: #FFFFFF;;
+  align-items: center;
+  padding-right: 0.5rem;
+  width: 12.8rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  display: flex;
+}
+
+
 .logIn-Btn{
   text-align: center;
   color: #FFFFFF;
   background-color: #4cc986;
   width: 28.8rem;
   height: 4.7rem;
-  font-family: 'Exo';
   font-weight: 700;
   font-size: 1.8rem;
   line-height: 2.3rem;
@@ -93,7 +103,6 @@ body{
 }
 
 .welcomes{
-  font-family: 'Exo';
   font-style: normal;
   color: #FFFFFF;
   text-align: center;
@@ -114,4 +123,60 @@ body{
   margin-bottom: 32px;
 }
 
+.lines {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.6rem;
+  padding: 1.6rem 0rem;
+}
+
+.line {
+  width: 11.7rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.5);
+}
+
+.or {
+  font-weight: 400;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.3rem;
+  height: 1.9rem;
+  line-height: 1.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.login-Box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.2rem solid #FFFFFF;
+  border-radius: 0.6rem;
+  margin-bottom: 1.6rem;
+  width: 28.8rem;
+  height: 4.7rem;
+}
+
+.login-Mts{
+  color: #FFFFFF;
+  text-decoration: none;
+  line-height: 1.8rem;
+  text-align: center;
+  padding-left: 0.6rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  width: 14.9rem;
+  height: 1.9rem;
+}
+
+.login-Fb{
+  width: 21px;
+  height: 20px;
+  background-image: url(../img/facebookLogo.png);
+}
+
 @font-face { font-family: EXO; src: url("../Exo-VariableFont_wght.ttf"); } 
+
