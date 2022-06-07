@@ -1,0 +1,214 @@
+body {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+}
+
+.rectangletop {
+  position: absolute;
+  width: 1494px;
+  height: 115px;
+  bottom: 947px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4px);
+}
+
+.rectanglelogo{
+  left: 39px;
+  right: 1133px;
+  top: 30px;
+  bottom: 966px;
+  position: absolute;
+  Width:322px;
+  Height: 66px;
+  Blend: Pass through;
+}
+
+.carousel::before,
+.carousel::after,
+.carousel__prev,
+.carousel__next {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  font-size: 0;
+  opacity: 0,8;
+}
+
+.carousel::after,
+.carousel__next {
+  right: 32px;
+  left: 1419px;
+  bottom: 510px;
+  top: 509px;
+}
+
+.carousel::before,
+.carousel__next {
+  right: 1419px;
+  left: 32px;
+  bottom: 510px;
+  top: 509px;
+}
+
+.carousel::before,
+.carousel::after {
+  content: '';
+  position: absolute;
+  blend: Pass through;
+  Width: 43px ;
+  Height: 43px ;
+  background: #FFFFFF;
+  opacity: 0.8;
+  transform: rotate(-180deg);
+}
+
+.carousel::before {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.carousel::after {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.bg-box{
+  position: absolute;
+  width: 462px;
+  height: 702px;
+  left: 932px;
+  top: 178px;
+  background: #F0F0F0;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+}
+
+.email_Box{
+  left: 50px;
+  right: 50px;
+  bottom: 520px;
+  top: 135px;
+  width: 362px;
+  height: 47px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  position: absolute;
+}
+
+.password_Box{
+  left: 50px;
+  right: 50px;
+  bottom: 457px;
+  top: 198px;
+  width: 362px;
+  height: 47px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  position: absolute;
+}
+
+.email_Box_Filler{
+  position: absolute;
+  left: 4.42%;
+  right: 4.42%;
+  top: 22.5%;
+  bottom: 22.5%;
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #939393;
+  width: 330px;
+  height: 25.85px;
+}
+
+.password_Box_Filler{
+  position: absolute;
+  left: 4.42%;
+  right: 11,05%;
+  top: 22.5%;
+  bottom: 22.5%;
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #939393;
+  width: 330px;
+  height: 25.85px;
+}
+
+.logIn_Box{
+  position: absolute;
+  Width: 363px;
+  height: 47px;
+  radius: 6px;
+  left: 50px;
+  right: 50px;
+  bottom: 353px;
+  top: 302px;
+  background: #4CC986;
+  border-radius: 6px;
+}
+
+/*
+ position: absolute;
+  height: 27px;
+  width: 362px;
+  left: 50px;
+  right: 10.42%;
+  top: calc(50% - 27px/2 - 280.5px);
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #515151;
+
+*/
+
+.welcome_Msg{
+  position: absolute;
+  height: 27px;
+  left: 64.44%;
+  right: 10.42%;
+  top: calc(50% - 27px/2 - 280.5px);
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #515151;
+}
+
+.welcome_Msg2{
+  position: absolute;
+  width: 362px;
+  height: 28px;
+  left: 50px;
+  right: 50px;
+  bottom: 599px;
+  top: 75px;
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #515151;
+}
+
+@font-face { font-family: EXO; src: url("../Exo-VariableFont_wght.ttf"); } 
+
