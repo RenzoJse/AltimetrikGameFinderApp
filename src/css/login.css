@@ -2,6 +2,13 @@
   font-family: "Exo";
 }
 
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  padding: 0;
+  width: 100%;
+}
+
 body{
   margin: 0;
   min-height: 100vh;
@@ -21,16 +28,16 @@ body{
 .logo {
   width: 19.4rem;
   height: 2.5rem;
-  fill : none;
-  background-image: url(../img/whiteLogo.png);
-  background-repeat: no-repeat;
 }
 
-.bg-Box{
+.section{
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 1.2rem;
   width: 100%;
   padding-bottom: 3.4rem;
+}
+
+.bg-Box{
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -180,3 +187,75 @@ body{
 
 @font-face { font-family: EXO; src: url("../Exo-VariableFont_wght.ttf"); } 
 
+@media screen and (min-width: 768px) {
+
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 4.4rem 0rem 9.6rem 5.3rem;
+  }
+
+  .section{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1.2rem;
+    width: 46.2rem;
+    height: 70.2rem;
+    margin: 0 auto;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bg-Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 36.2rem;
+  }
+
+  .carrousel {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .arrow-Left,
+  .arrow-Right {
+    margin-top: 0 auto;
+    padding: 0;
+    width: 4.3rem;
+    height: 4.3rem;
+    background-color: #515151;
+    border-radius: 50%;
+  }
+
+  .arrow-Left {
+    background-image: url(../img/arrowLeft.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 32.2rem;
+    margin-left: 2.4rem;
+  }
+
+  .arrow-Right {
+    background-image: url(../img/arrowRight.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 32.2rem;
+    margin-right: 2.4rem;
+  }
+
+}
+
+@media screen and (min-width: 1062px) {
+
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 4.4rem 0rem 9.6rem 5.3rem;
+  }
+
+  .section {
+    margin-right: 2.5rem;
+  }
+
+}
