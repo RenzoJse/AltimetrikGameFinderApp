@@ -1,6 +1,58 @@
+@font-face { font-family: EXO; src: url("../Exo-VariableFont_wght.ttf"); } 
 
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Exo";
+}
 
+header {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 94px;
+    width: 100%;
+    background: linear-gradient(180deg, #5FE19B 0%, #36B972 50%, #0EA152 100%);
+	box-shadow: 1px -3px 36px rgba(0, 0, 0, 0.5);
+}
 
+.search-Box {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    height: 47px;
+	width: 362px;
+	bottom: 90.82%;
+	border-radius: 26px;
+	color: #FFFFFF;
+}
+
+.profile {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 39px;
+    margin-top: 32px;
+}
+
+.profile-Photo{
+	height: 48px;
+	width: 48px;
+	border-radius: 26px;
+}
+
+.logout-Txt {
+    padding-right: 11px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
 
 
 
