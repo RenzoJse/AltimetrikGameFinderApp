@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>GameFinder App</title>
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Renzo">
     <link href="css/main.css" rel="stylesheet">
 </head>
 
@@ -13,15 +13,15 @@
     <header class = "header">
 
         <div class = "logo">
-            <img src="img/whiteLogo.png" width = "294" height = "38" fill="none">
+            <img src="img/whiteLogo.png" width = "267.1" height = "34.05" fill="none">
         </div>
 
         <div class="search-Box">
             <button class="search-Btn"> </button>    
-            <input type="search" class="search-input" placeholder="Type game name or console">
+            <input type="search" class="search-Box" placeholder="Type game name or console">
         </div>
 
-        <div class="profile-box">
+        <div class="profile-Box">
             <p class="logout-Txt">Logout</p>
             <button class="logout-Btn">                       
             </button>
@@ -30,9 +30,65 @@
 
     </header>
 
+    <div class = "main-Container">
+        <div class="title-Box">
+            <h1 class="main-Title">New and trending</h1>
+            <h2 class="sub-Title">Based on player counts and realese date</h2>
+        </div>
 
+        <!-- Left side option menu -->
+        <nav class = "side-Box">
 
+            <nav class="side-asde">
+                <button class="home">Home</button>
+            </nav>
 
+            <nav class="side-Option">
+                <button class="reviews">Reviews</button>
+            </nav>
 
+            <nav class="side-Option">
+                <button class="new-Releases">New Releases</button>
+            </nav>
+
+            <nav class="side-Option">
+                <img src="img/star.png" width = "19" height = "17.65" fill="none">
+                <button class="this-Week">This week</button>
+            </nav> 
+
+            <nav class="side-Option">          
+                <img src="img/calendar.png" width = "19" height = "17.65" fill="none">  
+                <button class="this-Month">This month</button>
+            </nav> 
+
+            <nav class="side-Option">
+                <img src="img/watch.png" width = "19" height = "17.65" fill="none">
+                <button class="coming-Soon">Coming soon</button>
+            </nav> 
+
+            <nav class="side-Option">
+                <button class="popular">Popular</button>
+            </nav>   
+
+            <nav class="side-Option">
+                <img src="img/search.png" width = "19" height = "17.65" fill="none">               
+                <button class="last-Searches">Last searches</button>
+            </nav>
+
+            <nav class="side-Option">  
+                <img src="img/like.png" width = "19" height = "17.65" fill="none">             
+                <button class="best">Best of the year</button>
+            </nav>
+
+        </nav>
+
+        <!-- Card Box for JS -->
+        <div class="cards-Container">
+                <ul class="games-List"></ul>      
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
 
 </body>

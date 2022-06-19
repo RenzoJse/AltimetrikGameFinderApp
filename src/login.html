@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Login GameFinder</title>
     <meta name="description" content="">
     <meta name="author" content="">
@@ -28,10 +29,10 @@
 
 						<form class="form-Box">
 							<div>
-								<input class = "input-Box" type = "email-Box" name="Email" placeholder="Email" required/>
+								<input class = "input-Box" id="emailB" type = "email-Box" name="Email" placeholder="Email" required/>
 							</div>
 							<div>
-								<input class="input-Box" type="password_Box" name="Password" placeholder="Password" required/>
+								<input class="input-Box" id="passwordB" type="password_Box" name="Password" placeholder="Password" required/>
 							</div>
 						</form>
 
@@ -44,7 +45,7 @@
 						</div>
 
 						<a href = "#">
-							<input class = "logIn-Btn" type = "submit" value = "Log In" placeholder="logIn">
+							<input class = "loginButton" id="botonId" type = "submit" value = "LogIn" placeholder="logIn">
 						</a>
 
 						<div class = "helpers-Box">
@@ -60,19 +61,19 @@
 
 						<div class = "login-Box">
 							<div class = "login-Mts">
-								<img src="img/facebookLogo.png" width = "21" height = "20">
+								<img src="img/facebookLogo.png" width = "21" height = "20" class="icons">
 								<a class="button-Fb" href="#"> Login with Facebook </a>
 							</div>	
 						</div>
 						<div class = "login-Box">
 							<div class = "login-Mts">
-								<img src="img/twitterLogo.png" width = "21" height = "20">
+								<img src="img/twitterLogo.png" width = "21" height = "20" class="icons">
 								<a class="button-Fb" href="#"> Login with Twitter </a>
 							</div>	
 						</div>
 						<div class = "login-Box">
 							<div class = "login-Mts">
-								<img src="img/googleLogo.png" width = "21" height = "20">
+								<img src="img/googleLogo.png" width = "21" height = "20" class="icons">
 								<a class="button-Fb" href="#"> Login with Google </a>
 							</div>	
 						</div>
@@ -85,5 +86,8 @@
 		</div>
 
 	</body>
+
+	<script src="js/login.js"></script>
+
 </html>
 

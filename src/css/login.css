@@ -96,7 +96,7 @@ body{
 }
 
 
-.logIn-Btn{
+.loginButton{
   text-align: center;
   color: #FFFFFF;
   background-color: #4cc986;
@@ -168,6 +168,7 @@ body{
 }
 
 .login-Mts{
+  display: flex;
   color: #FFFFFF;
   text-decoration: none;
   line-height: 1.8rem;
@@ -175,14 +176,33 @@ body{
   padding-left: 0.6rem;
   font-weight: 700;
   font-size: 1.4rem;
-  width: 14.9rem;
-  height: 1.9rem;
+  width: 288px;
+  height: 51px;
 }
 
 .login-Fb{
   width: 21px;
   height: 20px;
   background-image: url(../img/facebookLogo.png);
+  align-items:flex-end;
+}
+
+.icons{
+  padding-left: 61px;
+  padding-top: 14px;
+}
+
+.button-Fb{
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
 }
 
 @font-face { font-family: EXO; src: url("../Exo-VariableFont_wght.ttf"); } 
@@ -193,6 +213,18 @@ body{
     display: flex;
     justify-content: flex-start;
     padding: 4.4rem 0rem 9.6rem 5.3rem;
+  }
+
+  .logo {
+    width: 29.3rem;
+    height: 3.7rem;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.8rem;
+    padding-bottom: 10.2rem;
   }
 
   .section{
